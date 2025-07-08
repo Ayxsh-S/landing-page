@@ -1,0 +1,250 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.Header {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 64px;
+
+}
+
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 72px;
+  gap: 40px;
+  background: #1F2937;
+  color: white;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.leftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 32px;
+}
+
+.subTitle {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  max-width: 400px;
+
+}
+
+.content {
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 400px;
+}
+
+.rightContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 8px;
+
+}
+
+.rightContainer img {
+
+  width:500px;
+  height:200px;
+  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+  object-fit: contain;
+
+}
+
+.subHeader button {
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #3882F6;
+    text-align: center;
+    display: inline-block;
+    margin-left: 128px;
+    border-radius: 7.5px;
+    color: white;
+    border: 1px solid #3882F6;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.subHeader button:hover {
+  transform: scale(1.1); 
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #1F2937;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.box {
+    border: 3px solid #3882F6; 
+    padding: 24px;            
+    border-radius: 8px;
+    width: 100px;    
+    height: 100px;          
+    background-color: white;
+    color: #1F2937;     
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 64px;
+    padding: 32px;
+}
+
+.someInfo {
+    max-width: 155px;
+
+}
+
+.text {
+    text-align: center;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 100px;
+    
+}
+
+.quote {
+    font-size: 40px;
+    font-weight: 50;
+    color: #1F2937;
+    text-align: center;
+    max-width: 750px;
+    font-family: light italic, system-ui, -apple-system, BlinkMacSystemFont;
+
+
+}
+
+.sign {
+
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+    text-align: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up-box {
+    background: #3882F6;
+    width: 700px;
+    height: 75px;
+    padding: 50px 50px;
+    color: white;
+    border-radius: 16px;
+}
+
+.boxTitle {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.boxButton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.boxButton button {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #3882F6;
+    text-align: center;
+    display: inline-block;
+    border-radius: 7.5px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.boxButton button:hover {
+  transform: scale(1.1); 
+}
+
+.boxRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxContent {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
+
+.footer {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footerText {
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont;
+}
